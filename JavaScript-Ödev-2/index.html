@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="section-title-area p-5">
+            <div class="section-title mb-5">
+                <h1>
+                    Haftalık Rutin
+                </h1>
+            </div>
+            <div class="add-Area">
+                <input type="text" id="inputIndex">
+                <button id="button" onclick="addItem()">Ekle</button>
+            </div>
+        </div>
+        <div class="list-group-area">
+            <ul id="listGroupIndex">
+                <li id="liIndex">
+                    liste1
+                    <button id="closeButton" onclick="removeItem()">
+                        X
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+</body>
+<script src="js/app.js"></script>
+</html>
